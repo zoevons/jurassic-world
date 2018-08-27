@@ -1,0 +1,54 @@
+body, html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.main-bg {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/jurassic-two.jpg");
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  padding: 1px;
+  display: flex;
+}
+
+@font-face {
+	font-family: jurassicFont;
+	src: url('../fonts/Jurassic Park.woff') format('woff');
+}
+
+.jurassic-info {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 650px;
+  height: 500px;
+  background-position: center;
+  margin: auto;
+  padding: 16px;
+  text-align: center;
+
+}
+
+.jurassic-info header h1 {
+  color: #f2f2f2;
+  font-size: 120px;
+  font-family: jurassicFont;
+  margin: 0;
+}
+
+.jurassic-info header h2 {
+  color: #f2f2f2;
+  margin: -30px;
+  font-size: 42px;
+  font-family: 'Markazi Text', serif;
+}
+
+.jurassic-info iframe {
+  margin-top: 40px;
+  width: 100%;
+  height: 350px;
+}
